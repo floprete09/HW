@@ -8,7 +8,7 @@ const Blog =require('./models/blog')
 const app = express();
 
 // connect to mongodb & listen for requests
-const dbURI = 'mongodb+srv://Netninja:testingtesting7854@cluster1.t8ya46y.mongodb.net/Course-data?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://Netninja:testingtesting7854@cluster0.citgyln.mongodb.net/Course-data';
 
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
